@@ -1,0 +1,1 @@
+{"rustc":8427573639476503995,"features":"[]","target":12850167955942402595,"profile":9287672682240564436,"path":1036222786711178230,"deps":[["ncurses v5.97.0","ncurses",9539668576983615691]],"local":[{"MtimeBased":[[1541464155,195452009],".fingerprint/conductor-cd5758d80168ed96/dep-bin-conductor-cd5758d80168ed96"]}],"rustflags":[],"edition":"Edition2015"}

@@ -1,51 +1,11 @@
-use std::sync::mpsc;
-use std::thread;
-pub struct ThreadPool {
-    workers: Vec<Worker>,
-    sender: mpsc::Sender<Job>,
-}
+use std::net::TcpListener;
 
-struct Job;
+fn main() {
+    let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
 
-impl ThreadPool {
-    pub fn new(size: usize) -> ThreadPool {
-        assert!(size > 0);
+    for stream in listener.incoming() {
+        let stream = stream.unwrap();
 
-        let (sender, receiver) = mpsc::channel();
-
-        let mut workers = Vec::with_capacity(size);
-
-        for id in 0..size {
-            workers.push(Worker::new(id, receiver));
-        }
-
-        ThreadPool {
-            workers,
-            sender,
-        }
-    }
-
-    pub fn execute<F>(&self, f: F) 
-        where 
-            F: FnOnce() + Send + 'static
-    {
-
-    }
-}
-
-struct Worker {
-    id: usize,
-    thread: thread::JoinHandle<()>,
-}
-impl Worker {
-    fn new(id: usize, receiver: mpsc::Receiver<Job>) -> Worker {
-        let thread = thread::spawn(|| {
-            receiver
-        });
-
-        Worker {
-            id,
-            thread,
-        }
+        println!("Connection established!");
     }
 }

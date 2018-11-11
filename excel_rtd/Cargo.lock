@@ -1,0 +1,14 @@
+[[package]]
+name = "com-rs"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "excel_rtd"
+version = "0.1.0"
+dependencies = [
+ "com-rs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum com-rs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "98163931f9dc2e346419c48763deb5262a87404208490018232bac7d432c2e63"

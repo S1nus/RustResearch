@@ -1,0 +1,14 @@
+/home/s1nus/Prog/Rust/conductor/target/debug/deps/libncurses-ca97f2e4ec22d52d.rlib: /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/lib.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/constants.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/mod.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/wrapper.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/mod.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/wrapper.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/constants.rs
+
+/home/s1nus/Prog/Rust/conductor/target/debug/deps/ncurses-ca97f2e4ec22d52d.d: /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/lib.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/constants.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/mod.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/wrapper.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/mod.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/ll.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/wrapper.rs /home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/constants.rs
+
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/lib.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/ll.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/constants.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/mod.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/ll.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/panel/wrapper.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/mod.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/ll.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/wrapper.rs:
+/home/s1nus/.cargo/registry/src/github.com-1ecc6299db9ec823/ncurses-5.97.0/src/menu/constants.rs:

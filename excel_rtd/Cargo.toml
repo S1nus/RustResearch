@@ -1,0 +1,7 @@
+[package]
+name = "excel_rtd"
+version = "0.1.0"
+authors = ["s1nus <chuckhead7@gmail.com>"]
+
+[dependencies]
+com-rs = "0.2.0"

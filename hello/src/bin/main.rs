@@ -1,4 +1,4 @@
-extern crate hello;
+extern crate server;
 use hello::ThreadPool;
 
 use std::fs;

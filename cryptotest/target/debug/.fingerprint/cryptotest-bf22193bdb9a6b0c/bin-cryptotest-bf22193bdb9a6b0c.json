@@ -1,0 +1,1 @@
+{"rustc":8427573639476503995,"features":"[]","target":3891348590127226774,"profile":355525098187783761,"path":1036222786711178230,"deps":[["rust-crypto v0.2.36","crypto",8776843290808213594]],"local":[{"MtimeBased":[[1542067430,929495914],".fingerprint/cryptotest-bf22193bdb9a6b0c/dep-bin-cryptotest-bf22193bdb9a6b0c"]}],"rustflags":[],"edition":"Edition2015"}

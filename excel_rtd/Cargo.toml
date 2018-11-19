@@ -2,6 +2,11 @@
 name = "excel_rtd"
 version = "0.1.0"
 authors = ["s1nus <chuckhead7@gmail.com>"]
+description = "An attempt at implementing the Real-Time Data Server for Excel"
 
 [dependencies]
 com-rs = "0.2.0"
+
+[lib]
+name = "excel_rtd"
+crate-type = ["cdylib"]

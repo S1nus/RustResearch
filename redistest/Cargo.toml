@@ -1,0 +1,7 @@
+[package]
+name = "redistest"
+version = "0.1.0"
+authors = ["s1nus <chuckhead7@gmail.com>"]
+
+[dependencies]
+redis = "0.9.0"

@@ -73,3 +73,10 @@ impl Worker {
         }
     }
 }
+
+struct Channel {
+    name: String,
+}
+struct User {
+    name: String,
+}

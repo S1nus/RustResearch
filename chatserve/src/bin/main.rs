@@ -27,7 +27,12 @@ fn handle_connection(mut stream: TcpStream) {
 
     stream.read(&mut buffer).unwrap();
 
-    let response = format!("blarggg");
+    let chars = from_utf8(&buffer).unwrap().char_indices();
+    let charCount = chars.count();
+    println!("Request: {}", from_utf8(&buffer).unwrap());
+    println!("Numchars: {}", charCount);
+
+    let response = format!("{}", from_utf8(&buffer).unwrap());
 
     stream.write(response.as_bytes()).unwrap();
     stream.flush().unwrap();

@@ -6,6 +6,7 @@ description = "An attempt at implementing the Real-Time Data Server for Excel"
 
 [dependencies]
 com-rs = "0.2.0"
+winapi = "0.3.6"
 
 [lib]
 name = "excel_rtd"
